@@ -46,7 +46,8 @@ const UserModal = ({ closeModal }) => {
         <div>
           <div className="flex flex-col items-center gap-4">
             <div
-              className="flex justify-center items-center   border border-[#E6E6E9] cursor-pointer rounded-full w-[100px] h-[100px] bg-[#FFFFFF]"
+              className="flex
+               justify-center items-center   border border-[#E6E6E9] cursor-pointer rounded-full w-[100px] h-[100px] bg-[#FFFFFF]"
               onClick={handleImageClick}
               role="button"
               aria-label="Upload profile picture"
