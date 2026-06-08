@@ -5,7 +5,6 @@ import Layout from "./Components/Layout";
 import User from "./Page/Users/User";
 import Tax from "./Page/Tax/Tax";
 import Files from "./Page/Files/Files";
-import Image from "./Image";
 function App() {
   return (
     <>
@@ -19,7 +18,6 @@ function App() {
             <Route path="/files" element={<Files />} />
           </Route>
         </Routes>
-        {/* <Image /> */}
       </div>
     </>
   );
